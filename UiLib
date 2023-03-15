@@ -7,7 +7,7 @@ local CoreGuiService = game:GetService("CoreGui")
 local RunService = game:GetService("RunService")
 local TextService = game:GetService("TextService")
 
-local TweenTime = 2
+local TweenTime = 0.25
 local Level = 1
 
 local GlobalTweenInfo = TweenInfo.new(TweenTime)
@@ -220,7 +220,7 @@ function UILibrary.Load(GUITitle)
 	
 local ImageLabel = Instance.new("ImageLabel")
 	
-ImageLabel.Parent = TitleBar
+ImageLabel.Parent = ContainerFrame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.0900000036, 0, 0.0900000036, 0)
