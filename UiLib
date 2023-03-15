@@ -33,7 +33,7 @@ local function TitleIcon(ButtonOrNot)
 	local NewTitleIcon = Instance.new(ButtonOrNot and "ImageButton" or "ImageLabel")
 	NewTitleIcon.Name = "TitleIcon"
 	NewTitleIcon.BackgroundTransparency = 1
-	NewTitleIcon.Image = IconLibraryID
+	NewTitleIcon.Image = IconLibraryID3
 	NewTitleIcon.ImageRectOffset = Vector2.new(524, 764)
 	NewTitleIcon.ImageRectSize = Vector2.new(36, 36)
 	NewTitleIcon.Size = UDim2.new(0,14,0,14)
