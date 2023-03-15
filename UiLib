@@ -7,7 +7,7 @@ local CoreGuiService = game:GetService("CoreGui")
 local RunService = game:GetService("RunService")
 local TextService = game:GetService("TextService")
 
-local TweenTime = 0.1
+local TweenTime = 2
 local Level = 1
 
 local GlobalTweenInfo = TweenInfo.new(TweenTime)
