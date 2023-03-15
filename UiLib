@@ -218,6 +218,8 @@ function UILibrary.Load(GUITitle)
 	DisplayFrame.Position = UDim2.new(0,110,0,30)
 	DisplayFrame.Parent = MainFrame
 	
+local ImageLabel = Instance.new("ImageLabel")
+	
 ImageLabel.Parent = TitleBar
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderSizePixel = 0
