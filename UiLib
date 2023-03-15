@@ -225,9 +225,9 @@ ImageLabel.ClipsDescendants = true
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1
 ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = Vector3.new(50, 50, 0)
-ImageLabel.Size = Vector3.new(10 ,10 , 0)
-ImageLabel.ZIndex = 10
+ImageLabel.Position = Vector3.new(50, 50, 50)
+ImageLabel.Size = Vector3.new(10, 10 , 0)
+ImageLabel.ZIndex = 1
 ImageLabel.Image = "http://www.roblox.com/asset/?id=12788977871"
 ImageLabel.Parent = MainFrame
   
