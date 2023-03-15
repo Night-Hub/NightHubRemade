@@ -47,7 +47,7 @@ local function TickIcon(ButtonOrNot)
 	local NewTickIcon = Instance.new(ButtonOrNot and "ImageButton" or "ImageLabel")
 	NewTickIcon.Name = "TickIcon"
 	NewTickIcon.BackgroundTransparency = 1
-	NewTickIcon.Image = "rbxassetid://12788977919"
+	NewTickIcon.Image = IconLibraryID3
 	NewTickIcon.ImageRectOffset = Vector2.new(312,4)
 	NewTickIcon.ImageRectSize = Vector2.new(24,24)
 	NewTickIcon.Size = UDim2.new(1,-6,1,-6)
