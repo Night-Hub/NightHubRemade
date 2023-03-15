@@ -220,7 +220,8 @@ function UILibrary.Load(GUITitle)
 	
 local ImageLabel = Instance.new("ImageLabel")
 	
-ImageLabel.Parent = ContainerFrame
+ImageLabel.Parent = MainFrame
+ImageLabel.ClipsDescendants = true
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.0900000036, 0, 0.0900000036, 0)
