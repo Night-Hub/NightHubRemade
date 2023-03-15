@@ -223,8 +223,9 @@ local ImageLabel = Instance.new("ImageLabel")
 ImageLabel.Name = "ImageLabel"
 ImageLabel.ClipsDescendants = true
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1
 ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(0.0900000036, 0, 0.0900000036, 0)
+ImageLabel.Position = UDim2.new(0, 0, 0, 0)
 ImageLabel.Size = UDim2.new(0, 82, 0, 81)
 ImageLabel.ZIndex = 10
 ImageLabel.Image = "http://www.roblox.com/asset/?id=12788977871"
