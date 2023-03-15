@@ -200,7 +200,7 @@ function UILibrary.Load(GUITitle)
 	MainFrame.ImageColor3 = Color3.fromRGB(30,30,30)
 	MainFrame.Parent = ContainerFrame
 	
-	local MenuBar, DisplayFrame, TitleBar, ImageLabel
+	local MenuBar, DisplayFrame, TitleBar
 	
 	MenuBar = ScrollingFrame()
 	MenuBar.Name = "MenuBar"
