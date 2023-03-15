@@ -46,7 +46,7 @@ local function TickIcon(ButtonOrNot)
 	local NewTickIcon = Instance.new(ButtonOrNot and "ImageButton" or "ImageLabel")
 	NewTickIcon.Name = "TickIcon"
 	NewTickIcon.BackgroundTransparency = 1
-	NewTickIcon.Image = "rbxassetid://3926305904"
+	NewTickIcon.Image = "rbxassetid://12788977919"
 	NewTickIcon.ImageRectOffset = Vector2.new(312,4)
 	NewTickIcon.ImageRectSize = Vector2.new(24,24)
 	NewTickIcon.Size = UDim2.new(1,-6,1,-6)
@@ -217,19 +217,6 @@ function UILibrary.Load(GUITitle)
 	DisplayFrame.Size = UDim2.new(1,-115,0,235)
 	DisplayFrame.Position = UDim2.new(0,110,0,30)
 	DisplayFrame.Parent = MainFrame
-	
-local ImageLabel = Instance.new("ImageLabel")
-
-ImageLabel.Name = "ImageLabel"
-ImageLabel.ClipsDescendants = true
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BackgroundTransparency = 1
-ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = Vector3.new(500, 50, 0)
-ImageLabel.Size = Vector3.new(10, 10 , 0)
-ImageLabel.ZIndex = 1
-ImageLabel.Image = "http://www.roblox.com/asset/?id=12788977871"
-ImageLabel.Parent = MainFrame
   
 	TitleBar = RoundBox(5)
 	TitleBar.Name = "TitleBar"
