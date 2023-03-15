@@ -226,7 +226,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.0477550253, 0, 0.319999695, 0)
-ImageLabel.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel.Size = UDim2.new(0, 20, 0, 15)
 ImageLabel.ZIndex = 10
 ImageLabel.Image = "http://www.roblox.com/asset/?id=12788977871"
 ImageLabel.Parent = MainFrame
